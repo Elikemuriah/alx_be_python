@@ -8,7 +8,7 @@ def match_case_calculator():
         return
     
     # Prompt for the operation
-    operation = input("Select an operation (+, -, *, /): ")
+    operation = input("choose an operation (+, -, *, /): ")
 
     # Match case statement to perform the appropriate calculation
     match operation:
