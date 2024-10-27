@@ -3,13 +3,13 @@ class BankAccount:
     def __init__(self, initial_Balance=0):
     #Initialize the account with an optional starting balance (default is 0).
 
-        self._Current_Balance = initial_Balance  # Private attribute for encapsulation
+        self._current_balance = initial_Balance  # Private attribute for encapsulation
 
     def deposit(self, amount):
         #Add the specified amount to the account balance.
 
         if amount > 0:
-            self._Current_balance += amount
+            self._current_balance += amount
             return True
         return False
 
