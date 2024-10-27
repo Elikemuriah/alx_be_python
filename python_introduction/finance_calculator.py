@@ -1,5 +1,5 @@
 monthly_income = int(input("Enter your monthly income"))
-monthly_expenses = int(input("Enetr your monthly expenses"))
+monthly_expenses = int(input("Enter your monthly expenses"))
 
 #CALCULATING MONTHLY SAVINGS AND INTERST
 
