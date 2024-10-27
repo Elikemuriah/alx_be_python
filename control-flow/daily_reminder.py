@@ -36,7 +36,7 @@ def daily_reminder():
         reminder += ". Consider completing it when you have free time."
 
     # Print the customized reminder
-    print("\nReminder:", reminder)
+    print("Reminder:", reminder)
 
 # Run the function
 if name == "main":
