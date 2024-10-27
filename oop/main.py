@@ -1,8 +1,8 @@
-from book_class import Book
+from book_class import PrintBook
 
 def main():
     # Creating an instance of Book
-    my_book = Book("1984", "George Orwell", 1949)
+    my_book = PrintBook("1984", "George Orwell", 1949)
 
     # Demonstrating the __str__ method
     print(my_book)  # Expected to use __str__
