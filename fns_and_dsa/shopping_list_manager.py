@@ -22,7 +22,7 @@ def remove_item(shopping_list):
 
 def view_list(shopping_list):
     if shopping_list:
-        print("\nCurrent Shopping List:")
+        print("Current Shopping List:")
         for idx, item in enumerate(shopping_list, start=1):
             print(f"{idx}. {item}")
     else:
@@ -42,7 +42,7 @@ def shopping_list_manager():
         elif choice == "3":
             view_list(shopping_list)
         elif choice == "4":
-            print("Exiting Shopping List Manager. Goodbye!")
+            print("Shopping List Manager. Goodbye!")
             break
         else:
             print("Invalid choice. Please enter a number from 1 to 4.")
