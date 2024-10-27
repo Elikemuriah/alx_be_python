@@ -14,6 +14,6 @@ def safe_divide(numerator, denominator):
         result = numerator / denominator
         return f"Result: {result:.2f}"
     except ZeroDivisionError:
-        return "Error: Division by zero is not allowed."
+        return "Cannot divide by zero."
     except ValueError:
         return "Error: Non-numeric input provided. Please enter valid numbers."
