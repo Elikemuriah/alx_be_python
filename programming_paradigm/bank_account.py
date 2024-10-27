@@ -1,9 +1,9 @@
 
 class BankAccount:
-    def __init__(self, initial_balance=0):
+    def __init__(self, current_balance=0):
     #Initialize the account with an optional starting balance (default is 0).
 
-        self._account_balance = initial_balance  # Private attribute for encapsulation
+        self._account_balance = current_balance  # Private attribute for encapsulation
 
     def deposit(self, amount):
         #Add the specified amount to the account balance.
