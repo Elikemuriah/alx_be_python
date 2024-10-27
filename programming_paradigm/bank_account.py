@@ -9,19 +9,19 @@ class BankAccount:
         #Add the specified amount to the account balance.
 
         if amount > 0:
-            self._account_balance += amount
+            self._Current_balance += amount
             return True
         return False
 
     def withdraw(self, amount):
         #Deduct the specified amount from the account balance if funds are sufficient.
         
-        if 0 < amount <= self._account_balance:
-            self._account_balance -= amount
+        if 0 < amount <= self._current_balance:
+            self._current_balance -= amount
             return True
         return False
 
     def display_balance(self):
         #Print the current account balance in a user-friendly format.
 
-        print(f"Current balance: ${self._account_balance:.2f}")
+        print(f"Current balance: ${self._current_balance:.2f}")
