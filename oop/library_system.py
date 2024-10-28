@@ -32,7 +32,7 @@ class Library:
     def list_books(self):
         for book in self.books:
             print(book)
-class Book:
+"""class Book:
     # Class attribute
     calculation_type = "Arithmetic Operations"
 
@@ -45,4 +45,4 @@ class Book:
     def multiply(cls, a, b):
         #Class method to multiply two numbers, referencing the class attribute.
         print(f"Calculation type: {cls.calculation_type}")
-        return a * b
+        return a * b"""
